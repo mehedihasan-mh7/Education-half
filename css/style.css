@@ -1,0 +1,244 @@
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Sniglet', cursive;
+*/
+/*font-family: 'Dosis', sans-serif;*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	font-family: 'Dosis', sans-serif;
+	background-image: url(../image/bg-color.png);
+}
+/*header start here*/
+header{
+	background-color: #ffd338;
+}
+
+.menu ul li a{
+	font-size: 18px;
+	font-weight: 700;
+	color: white !important;
+	padding: 0px 18px !important;
+	border-radius: 20px;
+	transition: .5s;
+}
+.menu ul li a:hover{
+	background-color: #f05c5c;
+
+}
+.logo{
+
+}
+.btn-user, .btn-search{
+	color: white;
+	margin-right: 5px;
+}
+
+.btn-user:hover, .btn-search:hover{
+	color: #f05c5c;
+
+}
+.btn-user:focus, .btn-search:focus {
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgb(241, 92, 92);
+}
+.user-dd{
+	top: 68px;
+	left: -115px;
+
+}
+
+.user-dd a{
+	transition: .4s;
+}
+
+.user-dd a:hover{
+	background-color: #f05c5c !important;
+	color: white !important;
+}
+.search-dd{
+	top: 68px;
+	left: -250px;
+	min-width: 300px;
+}
+.custom-btn {
+	background: no-repeat;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	color: white;
+	background-color: #f05c5c;
+	padding: 3px 5px;
+	border-radius: 7px;
+}
+.custom-btn:hover{
+	color: #ffe8b6;
+
+}
+/*header end here*/
+
+/*banner start here*/
+.banner{
+
+	background-image: url(../image/b-cloud.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.banner-content{
+	margin-top: 300px;
+	margin-bottom: 300px;
+
+}
+.banner-content h1{
+	color: #1ec0ff;
+	font-size: 48px;
+	font-weight: 700;
+}
+.scroll{
+	position: relative;
+
+}
+.scroll p{
+	font-size: 17px;
+	color: #bbbbbb;
+}
+.s-icon{}
+
+/*kid1 start*/
+.kid1, .teacher{
+	padding: 80px 0px;
+}
+.kid-title, .teacher-text{
+	margin-bottom: 40px;
+}
+.k-title, .teacher-text h1{
+	font-weight: 700;
+	font-size: 30px;
+}
+.kid-title hr {
+	width: 230px;
+	border-top: 4px dashed white;
+}
+.kid-text{}
+.kid-text h2{
+	font-weight: 700;
+	font-size: 24px;
+}
+.kid-text hr {
+	width: 132px;
+	border: 1.7px solid #dddddd;
+}
+.kid-text p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 33px;
+}
+.kid-text a{}
+.kid-btn{
+	width: 180px;
+}
+
+.kid-img{
+	border-radius: 10px;
+}
+
+/*kid1 end */
+/*banner end*/
+
+
+
+
+/*teachers start*/
+.teacher{
+
+	background-image: url(../image/t-bgimg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}
+.teacher-dash{}
+.edu-profile{}
+.edu-border{
+	position: relative;
+	left: -49px;
+}
+.edu-profile span:nth-child(1){
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	transition: .8s;
+	animation: animate 4s linear infinite;
+}
+
+
+.edu-img img{
+	border-radius: 50%;
+}
+.edu-content {
+	margin-top: 20px;
+}
+.edu-content h2{
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+/*teachers end*/
+
+/*moment start*/
+.moment{
+	background-image: url(../image/moment-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 75px 0px;
+}
+.moment-content {
+	margin-bottom: 40px;
+}
+.moment-content h1{
+
+}
+.moment-dash {
+	width: 205px;
+}
+.moment-item {
+	margin-top: 40px;
+}
+.moment-img {
+	border-radius: 15px;
+}
+.moment-btn {
+	margin-top: 80px;
+	width: 215px;
+}
+/*moment end*/
+
+/*footer last start*/
+.footer-last{
+	background-color: #ffd338;
+	color:white;
+}
+.f-content{
+	margin-top: 15px;
+}
+.f-content ul {}
+.f-content ul li{
+	font-weight: 700;
+	font-size: 17px;
+}
+.f-content ul li a{
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+}
+.f-content ul li a:hover{
+	color:red;
+}
+
+/*footer last end*/
+

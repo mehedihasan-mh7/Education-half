@@ -1,0 +1,244 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*Header start*/
+	.menu ul li a {
+		display: inline-block;
+	}
+	.menu ul li a {
+		margin-left: -16px;
+	}
+	.logo {
+		width: 150px;
+	}
+
+	.btn-user, .btn-search{
+		padding: 0px;
+	}
+	.user-dd {
+		top: 50px;
+		left: 61px;
+	}
+	.search-dd {
+		top: 33px;
+		left: 1px;
+		min-width: 278px;
+	}
+	/*Header end*/
+
+	/*banner start*/
+	.banner{
+		background:none;
+		background-color: white;
+	}
+	.banner-content {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.banner-content h1 {
+		font-size: 30px;
+	}
+
+	.scroll p {
+		font-size: 16px;
+	}
+
+	/*kid1 start*/
+	.kid1 {
+		padding: 30px 0px;
+	}
+	.kid-title h1 {
+		font-size: 27px;
+	}
+	.kid-text hr {
+		width: 130px;
+	}
+	.kid-btn {
+		width: 150px;
+		margin-bottom: 20px;
+	}
+	/*kid1 end*/
+	/*banner end*/
+	/*teacher start*/
+	.teacher{
+		padding: 40px;
+	}
+	.teacher-text {
+		margin-bottom: 10px;
+	}
+	.t-content {
+		margin-top: 20px;
+	}
+	.teacher-text h1 {
+		font-size: 24px;
+	}
+	.teacher-dash {
+		width: 160px;
+	}
+	.edu-content h2 {
+		font-size: 21px;
+	}
+	.edu-profile {
+		margin-top: 20px;
+	}
+
+    /*teacher end*/
+
+    /*footer start*/
+    .f-content {
+      text-align: center;
+    
+    }
+    /*footer end*/
+	
+	/* Small devices (landscape phones, 576px and up)*/
+	@media (min-width: 576px) and (max-width: 767.98px) {
+		/*Header start*/
+		.menu ul li a {
+			display: inline-block;
+		}
+		.user-dd {
+			top: 13px;
+			left: 60px;
+		}
+		.search-dd {
+			top: 45px;
+			left: 32px;
+		}
+		/*Header end*/
+
+		/*banner start*/
+		.banner-content {
+			margin-top: 60px;
+			margin-bottom: 50px;
+		}
+		.banner-content h1 {
+			font-size: 40px;
+		}
+		.scroll {
+			top: 70px;
+		}
+		
+		/*kid1 start*/
+		.kid1{
+			padding-top: 80px;
+			padding-bottom: 40px;
+		}
+		.kid-title h1 {
+			font-size: 27px;
+		}
+		.kid-text h2 {
+			font-size: 22px;
+		}
+		.kid-text hr {
+			width: 119px;
+		}
+
+
+		.kid-text p {
+			line-height: 24px;
+		}
+		.kid-img {
+			margin-top: 50px;
+		}
+		.kid-btn {
+			width: 150px;
+		}
+		/*kid1 end */
+		/*banner end*/
+
+		/*teacher start*/
+		.teacher{
+			padding: 50px;
+		}
+		.teacher-text h1 {
+			font-size: 27px;
+		}
+		.teacher-dash {
+			width: 198px;
+		}
+		.edu-profile {
+			margin-top: 20px;
+		}
+		.edu-content h2 {
+			font-size: 22px;
+		}
+		/*teacher end*/
+
+	}
+
+	/* Medium devices (tablets, 768px and up)*/
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		/*Header start*/
+		.menu ul li a {
+			display: inline-block;
+		}
+		.user-dd {
+			top: 13px;
+			left:63px;
+		}
+		.search-dd {
+			top: 44px;
+			left: 35px;
+		}
+		/*Header end*/
+
+		/*banner start*/
+		.banner-content {
+			margin-top: 110px;
+			margin-bottom: 120px;
+		}
+		.banner-content h1 {
+			font-size: 38px;
+		}
+		.scroll {
+			top: 60px;
+		}
+
+		/*kid1 start*/
+		.kid-title {
+			margin-bottom: 40px;
+			padding-top: 20px;
+		}
+		.kid-title h1, .teacher-text h1 {
+			font-size: 25px;
+		}
+		.kid-text hr {
+			width: 130px;
+		}
+		.kid-text p {
+			line-height: 25px;
+		}
+		.kid-img {
+			margin-top: 36px;
+		}
+		/*kid1 end*/
+		/*banner end*/
+
+
+		/*teacher star*/
+		.teacher{
+			padding: 60px 0px;
+		}
+		.teacher-dash {
+			width: 200px;
+		}
+		.edu-content h2 {
+			font-size: 20px;
+		}
+
+		/*teacher end*/
+		/*footer last start*/
+		.f-content{ 
+            text-align: center;
+     
+       }
+		/*footer last end*/
+	}
+
+	/* Large devices (desktops, 992px and up)*/
+	@media (min-width: 992px) and (max-width: 1199.98px) {
+	}
+
+	/* Extra large devices (large desktops, 1200px and up)*/
+	@media (min-width: 1200px) {
+	}
